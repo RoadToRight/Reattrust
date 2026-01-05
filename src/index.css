@@ -1,0 +1,96 @@
+* {
+    font-family: "Poppins", sans-serif !important;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    width: 100%;
+    position: relative;
+    padding: 40px 0px 40px 0px;
+    background-color: black;
+    max-width: 1170px;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header .container {
+    width: 100%;
+    /* max-width: 1210px; */
+    /* margin: 0px auto; */
+    /* padding: 0px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+
+.navigation ul {
+    color: white;
+    gap: 20px;
+}
+
+.upper {
+    display: flex;
+    height: 110px;
+    position: relative;
+}
+
+.black {
+    /* position: absolute;
+           right: 0px;
+    top: 0px; */
+    /* content: ""; */
+    width: calc(80% + 70px);
+    height: 100%;
+    background: #000000;
+    margin-left: -270px;
+    z-index: 1;
+}
+
+.golden {
+    /* position: absolute;
+            top: 10px; */
+    /* content: ""; */
+    width: calc(20% + 200px);
+    /* width: 20%; */
+    height: calc(100% - 20px);
+    background: #BAA360;
+    z-index: 2;
+    margin: auto 0;
+    background-image: url("./Group\ 373\ \(1\).png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button {
+    background-color: #BAA360;
+    padding: 17px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 190px;
+    margin: auto 0;
+    position: relative;
+    z-index: 2;
+}
