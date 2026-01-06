@@ -214,11 +214,7 @@ header p {
     margin-left: -95px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+
 
 .input_Box svg {
     position: absolute;
