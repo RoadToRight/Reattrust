@@ -149,33 +149,9 @@ button {
     position: relative;
 }
 
-.black {
-    /* position: absolute;
-           right: 0px;
-    top: 0px; */
-    /* content: ""; */
-    width: calc(80% + 70px);
-    height: 100%;
-    background: #000000;
-    margin-left: -270px;
-    z-index: 1;
-}
 
-.golden {
-    /* position: absolute;
-            top: 10px; */
-    /* content: ""; */
-    width: calc(20% + 200px);
-    /* width: 20%; */
-    height: calc(100% - 20px);
-    background: #BAA360;
-    z-index: 2;
-    margin: auto 0;
-    background-image: url("./Group\ 373\ \(1\).png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
+
 
 button {
     background-color: #BAA360;
