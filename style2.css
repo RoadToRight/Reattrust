@@ -95,7 +95,7 @@ button {
     z-index: 2;
 }
 
-.Hero_Section {
+ {
     background-image: url("Hero.png");
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -106,42 +106,42 @@ button {
     align-items: center;
 }
 
-.Hero_Section header h2 {
+ header h2 {
     color: white;
     font-size: 60px;
     font-weight: 700;
 }
 
-.Hero_Section header h4 {
+ header h4 {
     color: white;
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.Hero_Section header p {
+ header p {
     color: white;
     line-height: 30px;
     max-width: 770px;
 }
 
-.Hero_Section .input_Box {
+ .input_Box {
     max-width: 700px;
     display: flex;
     position: relative;
 }
 
-.Hero_Section .input_Box input {
+ .input_Box input {
     background: white;
     padding: 28px 76px;
     width: 550px;
 }
 
-.Hero_Section .input_Box input:focus {
+ .input_Box input:focus {
     outline: none;
 }
 
-.Hero_Section .input_Box button {
+ .input_Box button {
     background-color: #BAA360;
     padding: 17px 0px;
     font-weight: 600;
@@ -155,13 +155,13 @@ button {
     margin-left: -95px;
 }
 
-.Hero_Section .container {
+ .container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.Hero_Section .input_Box svg {
+ .input_Box svg {
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);

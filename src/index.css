@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
-    font-family: "Poppins", sans-serif !important;
+    font-family: "Josefin Sans", sans-serif !important;
     box-sizing: border-box;
 }
 
@@ -8,6 +10,16 @@ body {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
 
 .header {
     width: 100%;
@@ -19,9 +31,91 @@ body {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1240px;
     margin: 0 auto;
+    width: 100%;
 }
+
+.header .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+
+.navigation ul {
+    color: white;
+    gap: 20px;
+}
+
+.upper {
+    display: flex;
+    height: 110px;
+    position: relative;
+}
+
+.black {
+    /* position: absolute;
+           right: 0px;
+    top: 0px; */
+    /* content: ""; */
+    width: calc(80% + 70px);
+    height: 100%;
+    background: #000000;
+    margin-left: -270px;
+    z-index: 1;
+}
+
+.golden {
+    /* position: absolute;
+            top: 10px; */
+    /* content: ""; */
+    width: calc(20% + 200px);
+    /* width: 20%; */
+    height: calc(100% - 20px);
+    background: #BAA360;
+    z-index: 2;
+    margin: auto 0;
+    background-image: url("./Group\ 373\ \(1\).png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button {
+    background-color: #BAA360;
+    padding: 17px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 190px;
+    margin: auto 0;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.header {
+    width: 100%;
+    position: relative;
+    padding: 40px 0px 40px 0px;
+    background-color: black;
+    max-width: 1170px;
+
+}
+
 
 .header .container {
     width: 100%;
@@ -93,4 +187,292 @@ button {
     margin: auto 0;
     position: relative;
     z-index: 2;
+}
+
+header h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+header p {
+    color: white;
+    line-height: 30px;
+    max-width: 770px;
+}
+
+.input_Box {
+    max-width: 700px;
+    display: flex;
+    position: relative;
+}
+
+.input_Box input {
+    background: white;
+    padding: 28px 76px;
+    width: 550px;
+}
+
+.input_Box input:focus {
+    outline: none;
+}
+
+.input_Box button {
+    background-color: #BAA360;
+    padding: 17px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 190px;
+    height: calc(100% - 20px);
+    margin: auto 0;
+    position: relative;
+    z-index: 2;
+    margin-left: -95px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input_Box svg {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 31px;
+}
+
+
+.section_2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 80px 20px;
+    /* gap: 50px; */
+    flex-direction: column;
+}
+
+.section_2 .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    gap: 50px;
+}
+
+.section_2 header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_2 header h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section_2 header p {
+    line-height: 30px;
+}
+
+.section_2 .parent .img {
+    flex-shrink: 0;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+.section_2 .counter {
+    background-image: url("./section2\ counter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-left: auto;
+    margin-top: -90px;
+
+}
+
+.section_2 .counter .count {
+    padding: 50px 80px;
+    min-height: 246px;
+}
+
+.section_2 .counter .count h3 {
+    color: #BAA360;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section_2 .counter .count h4 {
+    color: #BAA360;
+    font-size: 18px;
+}
+
+.slider_section_review {
+    padding: 80px 20px;
+}
+
+.slider_section_review h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #BAA360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_section_review h2 {
+    color: #18213B;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+}
+
+.slider_section_review h2:after,
+.slider_section_review h2:before {
+    content: "";
+    height: 4px;
+    width: 90px;
+    background-color: #BAA360;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.slider_section_review .text-section {
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+
+.slider_section_review .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_section_review .slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF2F6;
+
+}
+
+.slider_section_review .slide .text-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider_section_review .slide .img {
+    flex-shrink: 0;
+}
+
+.arrow_swiper {
+    background-color: #BAA360;
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.arrow_swiper svg {
+    width: 25px !important;
+    height: 25px !important;
+
+
+}
+
+
+.slide-container {
+    /* max-width: 80%; */
+}
+
+.slide-container {
+    max-width: 80%;
+}
+
+.slide-container .img img {
+    position: relative;
+    left: -120px;
+    flex-shrink: 0;
+    height: 100%;
+    top: -102px
+}
+
+.slide-container .img {
+    flex-shrink: 0;
+}
+
+.swiper {
+    padding-top: 150px;
+    position: relative;
+}
+
+.swiper-arrows {
+    display: flex;
+}
+
+.swiper-arrows .arrow_swiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-arrows {
+    display: flex;
+    position: absolute;
+    /* top: 0px; */
+    bottom: 102px;
+    left: 254px;
+}
+
+.client {
+    display: flex;
+}
+
+.swiper::before {
+    content: "";
+    background-image: url("./memphics_003.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 115px;
+    z-index: -1;
+}
+
+.swiper::after {
+    content: "";
+    background-image: url("./memphics_003.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    z-index: -1;
+    left: -45px;
 }
