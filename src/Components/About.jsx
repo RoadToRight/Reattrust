@@ -20,6 +20,9 @@ export const About = () => {
                 <button class="about-btn">
                 Learn More
                 </button>
+                <div className="about-counter">
+
+                </div>
 
             </div>
      
@@ -79,4 +82,10 @@ font-weight: 600;
     max-width: 481px;
 }
 
+.about-counter {
+   min-height:250px;
+   padding:60px 80px;
+   background-color:#000;
+   
+   }
 `
