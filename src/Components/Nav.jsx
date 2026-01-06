@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Nav = () => {
     return (
-        <>
+        <Navbar>
             <section class="upper">
 
                 <div class="golden">
@@ -16,9 +16,14 @@ const Nav = () => {
                 </div>
 
             </section>
-        </>
+        </Navbar>
     )
 }
 
 export default Nav
 
+const Navbar = styled.div`
+    .upper{
+        
+    }
+`
